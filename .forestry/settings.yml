@@ -8,11 +8,11 @@ sections:
   path: blog/about.md
   label: About
 - type: directory
-  path: blog/posts
+  path: blog/post
   label: Posts
   create: all
   match: "**/*"
-  new_doc_ext: ''
+  new_doc_ext: ".md"
 upload_dir: uploads
 public_path: "/blog/.vuepress/public/images"
 front_matter_path: images
