@@ -5,23 +5,23 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: "./blog/about.md"
+  path: blog/about.md
   label: About
 - type: directory
-  path: "./blog/posts"
+  path: blog/posts
   label: Posts
   create: all
   match: "**/*"
-  new_doc_ext: md
+  new_doc_ext: ''
 upload_dir: uploads
 public_path: "/blog/.vuepress/public/images"
 front_matter_path: images
 use_front_matter_path: true
 file_template: ":filename:"
 build:
-  preview_output_directory: public
+  preview_output_directory: dist
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:12
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: npm run develop
+  instant_preview_command: npm run dev
