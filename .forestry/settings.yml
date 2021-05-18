@@ -7,16 +7,14 @@ sections:
 - type: document
   path: "./blog/about.md"
   label: About
-  match: "**/*"
-  read_only: false
 - type: directory
   path: "./blog/posts"
   label: Posts
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: uploads
-public_path: "/uploads"
+public_path: "/blog/.vuepress/public/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
