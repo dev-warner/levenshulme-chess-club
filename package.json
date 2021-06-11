@@ -3,13 +3,10 @@
   "version": "3.0.1",
   "description": "Ghosts Casper Theme for VuePress",
   "main": "src/.vuepress/theme/index.js",
-  "repository": "git@github.com:alexander-heimbuch/vuepress-theme-casper.git",
-  "author": "Alexander Heimbuch <github@heimbu.ch>",
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src --dest dist/",
-    "deploy:gh-pages": "env BASE='/vuepress-theme-casper/' npm run build && GH_EMAIL=github@heimbu.ch GH_NAME='Alexander Heimbuch' ./scripts/gh-pages.sh dist"
+    "build": "vuepress build src --dest dist/"
   },
   "dependencies": {
     "lodash": "^4.17.15",
