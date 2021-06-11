@@ -5,14 +5,14 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: src/faq.md
-  label: FAQ
+  path: src/index.md
+  label: Home
 - type: document
   path: src/jack.md
   label: Jack
 - type: document
-  path: src/index.md
-  label: Home
+  path: src/faq.md
+  label: FAQ
 - type: directory
   path: src/blog
   label: Posts
