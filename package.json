@@ -15,7 +15,6 @@
     "vuex-router-sync": "^5.0.0"
   },
   "devDependencies": {
-    "casper": "git@github.com:TryGhost/Casper.git",
     "http-errors": "^1.7.2",
     "vue": "2.6.11",
     "vuepress": "1.4.0"
