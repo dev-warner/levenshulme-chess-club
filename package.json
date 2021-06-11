@@ -9,14 +9,14 @@
     "build": "vuepress build src --dest dist/"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "striptags": "^3.1.1",
-    "vuex": "^3.0.1",
+    "vuex": "^3.6.2",
     "vuex-router-sync": "^5.0.0"
   },
   "devDependencies": {
-    "http-errors": "^1.7.2",
-    "vue": "2.6.11",
+    "http-errors": "^1.8.0",
+    "vue": "2.6.14",
     "vuepress": "1.4.0"
   },
   "peerDependencies": {
