@@ -7,11 +7,11 @@ let author = "Joe Warner";
 
 let title = "Levenshulme Chess Club";
 let description =
-  "A Levenshulme based casual chess evening at the Talleyrand. Every Monday from 7pm.";
+  "A Levenshulme based casual chess evening at the Talleyrand. Every other Monday from 7:30pm.";
 
 module.exports = Object.assign(config, base, {
   head: [
-    ["link", { rel: "icon", href: "/favicon.png" }],
+    ["link", { rel: "icon", href: "/favicon.ico" }],
     ["meta", { name: "keywords", content: "" }],
     ["meta", { name: "theme-color", content: color }],
     ["meta", { prefix: ogprefix, property: "og:title", content: title }],
