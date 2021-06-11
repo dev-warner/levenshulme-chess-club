@@ -1,0 +1,41 @@
+{
+  "title": "Levenshulme Chess Club",
+  "base": "/",
+  "themeConfig": {
+    "cover": "/images/cover.png",
+    "logo": "/images/logo.png",
+    "nav": [
+      {
+        "text": "Home",
+        "link": "/"
+      },
+      {
+        "text": "Jack",
+        "link": "/jack"
+      },
+      {
+        "text": "FAQ",
+        "link": "/faq"
+      }
+    ],
+    "footer": [
+      {
+        "text": "Instagram",
+        "link": "https://www.instagram.com/levychess/"
+      },
+      {
+        "text": "Twitter",
+        "link": "https://twitter.com/ChessLevy"
+      },
+      {
+        "text": "Facebook",
+        "link": "https://www.facebook.com/LevyChess-100959102205142"
+      }
+    ],
+    "social": {
+      "instagram": "https://www.instagram.com/levychess",
+      "twitter": "https://twitter.com/ChessLevy",
+      "facebook": "https://www.facebook.com/LevyChess-100959102205142"
+    }
+  }
+}

@@ -2,18 +2,13 @@
   "name": "vuepress-theme-casper",
   "version": "3.0.1",
   "description": "Ghosts Casper Theme for VuePress",
-  "main": "blog/.vuepress/theme/index.js",
+  "main": "src/.vuepress/theme/index.js",
   "repository": "git@github.com:alexander-heimbuch/vuepress-theme-casper.git",
   "author": "Alexander Heimbuch <github@heimbu.ch>",
   "license": "MIT",
   "scripts": {
-    "copy:casper:styles": "rm -rf blog/.vuepress/theme/styles && mkdir -p blog/.vuepress/theme/styles && cp node_modules/casper/assets/built/*.css blog/.vuepress/theme/styles/",
-    "copy:casper": "npm run copy:casper:styles",
-    "dev": "vuepress dev blog",
-    "build": "npm run copy:casper && rm -rf dist/ && vuepress build blog --dest dist/",
-    "bundle:clean": "rm -rf publish && mkdir -p publish",
-    "bundle:copy": "cp -R blog/.vuepress/theme/* publish/ && cp package.json publish/",
-    "bundle": "npm run build && npm run bundle:clean && npm run bundle:copy",
+    "dev": "vuepress dev src",
+    "build": "vuepress build src --dest dist/",
     "deploy:gh-pages": "env BASE='/vuepress-theme-casper/' npm run build && GH_EMAIL=github@heimbu.ch GH_NAME='Alexander Heimbuch' ./scripts/gh-pages.sh dist"
   },
   "dependencies": {
@@ -24,6 +19,7 @@
   },
   "devDependencies": {
     "casper": "git@github.com:TryGhost/Casper.git",
+    "http-errors": "^1.7.2",
     "vue": "2.6.11",
     "vuepress": "1.4.0"
   },
