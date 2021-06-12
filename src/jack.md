@@ -5,6 +5,8 @@ type: page
 ---
 In December 2020 our smartest, kindest and clumsiest friend, lost his life.
 
+![](images/jacky-lad.jpg)
+
 Like with everything after someone dies too young, you only see what they never did, who they never met and everything they never got to experience. There are thousands of things that Jack never got to do and perhaps the least important out of any of those things is that he never got good at Chess.
 
 It’s a small thing but it still hurts. I always enjoyed beating him, don't get me wrong, not least because of how intellectually inferior Jack made me feel by just existing in the same space as me. Alas, Jack was always straight trash
